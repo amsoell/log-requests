@@ -1,10 +1,9 @@
-# Very short description of the package
+# Log Requests
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/amsoell/log-requests.svg?style=flat-square)](https://packagist.org/packages/amsoell/log-requests)
 [![Total Downloads](https://img.shields.io/packagist/dt/amsoell/log-requests.svg?style=flat-square)](https://packagist.org/packages/amsoell/log-requests)
-![GitHub Actions](https://github.com/amsoell/log-requests/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Log all outgoing requests and incoming responses from the Laravel HTTP client. Useful when developing apps that interact with third-party APIs.
 
 ## Installation
 
@@ -16,9 +15,7 @@ composer require amsoell/log-requests
 
 ## Usage
 
-```php
-// Usage description here
-```
+Out-of-the-box, log-requests will log all outgoing / incoming HTTP responses to the default logging driver. This configuration can be changed by updating the `config/log-requests.php` configuration file to use your application's driver of choice.
 
 ### Testing
 

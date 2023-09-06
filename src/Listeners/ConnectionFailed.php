@@ -13,6 +13,5 @@ class ConnectionFailed
             message: 'Http Connection Failed',
             request: $event->request,
         );
-
     }
 }
